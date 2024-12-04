@@ -9,7 +9,7 @@ function determine() {
         return;
     }
 
-    let z = 1 / (x * y);
+    let z = 1 / (x / y);
     console.log("Z=", z);
 
     document.getElementById('result').textContent = `Z = ${z}`;
